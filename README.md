@@ -9,7 +9,7 @@ We follow these requirements:
 
 We use a flask of python web framework when we implement this project.
 
-And we refered to "Jump to Flask" (https://wikidocs.net/book/4542).
+We refered to Object-Oriented Programming lecture of professor Oh-Jun Lee from the Department of Artificial Intelligence at the Catholic University of Korea.
 
 How to run:
 excute: python run.py (in terminal)
