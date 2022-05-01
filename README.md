@@ -12,4 +12,5 @@ We use a flask of python web framework when we implement this project.
 We refered to Object-Oriented Programming lecture of professor Oh-Jun Lee from the Department of Artificial Intelligence at the Catholic University of Korea.
 
 How to run:
-excute: python run.py (in terminal)
+
+python run.py (in pycharm terminal)
