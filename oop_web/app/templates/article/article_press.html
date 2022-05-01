@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container my-3">
+    <h5 class="border-bottom my-3 py-2">언론사 평가</h5>
+    {% for key, value in dic.items() %}
+    <div class="card my-3">
+        <div class="card-body">
+            <div class="card-text" style="white-space: pre-line;">{{ key }}</div>
+        </div>
+        <div class="card-body">
+            <div class="card-text" style="white-space: pre-line;">호감도: {{ value[0] }}% - {{value[1]}}</div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
