@@ -9,7 +9,7 @@ We follow these requirements:
 
 We use a flask of python web framework when we implement this project.
 
-We refered to Object-Oriented Programming lecture of professor Oh-Jun Lee from the Department of Artificial Intelligence at the Catholic University of Korea.
+We refered to Object-Oriented Programming lecture of professor Oh-Jun Lee from the Department of Artificial Intelligence at the Catholic University of Korea, and 'Jump to Flask' (https://wikidocs.net/book/4542).
 
 How to run:
 
