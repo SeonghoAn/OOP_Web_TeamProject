@@ -20,5 +20,5 @@ class Comments():
             if result[i]==0:
                 filtered.append('필터링된 댓글입니다.')
             elif result[i]==1:
-                filtered.append(self.comment[i])
+                filtered.append(self._comment[i])
         return filtered
