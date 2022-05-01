@@ -14,3 +14,8 @@ We refered to Object-Oriented Programming lecture of professor Oh-Jun Lee from t
 How to run:
 
 python run.py (in pycharm terminal)
+
+
+Requirements of python library:
+
+python=3.6, flask, flask-migrate, numpy, pandas, konlpy, sklearn
