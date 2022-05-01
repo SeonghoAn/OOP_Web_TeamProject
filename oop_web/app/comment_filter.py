@@ -6,14 +6,14 @@ import pandas as pd
 class Comments():
 
     def __init__(self, comment):
-         self.comment = list(comment)
+         self._comment = list(comment)
 
     def prediction(self):
         cv = CountVectorizer()
         data1 = pd.read_csv('C:/Users/hohoa/PycharmProjects/oop_web/newtrain.csv', encoding='cp949')
         cv.fit(data1['comments'])
         model = joblib.load('C:/Users/hohoa/PycharmProjects/oop_web/naive.pkl')
-        tf = cv.transform(self.comment)
+        tf = cv.transform(self._comment)
         result = model.predict(tf)
         filtered = []
         for i in range(len(result)):
