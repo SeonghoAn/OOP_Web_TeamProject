@@ -10,3 +10,6 @@ We follow these requirements:
 We use a flask of python web framework when we implement this project.
 
 And we refered to "Jump to Flask" (https://wikidocs.net/book/4542).
+
+How to run:
+excute: python run.py (in terminal)
